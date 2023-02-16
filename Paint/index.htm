@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="head">
+        <button id="bold">B</button>
+        <button id="italic">I</button>
+        <button id="underline" style="text-decoration: underline;">U</button>
+        <div>
+            <span>Color:</span> 
+            <input type="color" id="inputColors"/>
+        </div>
+
+        <div id="last">
+            <span>Font: </span>
+            <input list="fonts" name="fontss" id="inputFonts" value="'Times New Roman', Times, serif"></input>
+        </div>
+
+    </div>
+    <textarea cols="68" rows="15"></textarea>
+    <datalist id="fonts">
+        <option value="'Times New Roman', Times, serif">
+        <option value="Arial, Helvetica, sans-serif">
+        <option value="'Courier New', Courier, monospace">
+        <option value="'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+        <option value="'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
+    </datalist>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="myjs.js"></script>
+</body>
+</html>
